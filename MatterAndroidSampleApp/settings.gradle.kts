@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "MatterAndroidSampleApp"
 include(":app")
- 
+include(":matterlib")

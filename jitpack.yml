@@ -1,0 +1,6 @@
+jdk:
+  - openjdk11
+before_install:
+  - cd MatterAndroidSampleApp
+install:
+  - ./gradlew :matterlib:publishToMavenLocal
